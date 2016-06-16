@@ -8,3 +8,4 @@ gem 'jekyll-paginate'
 gem 'redcarpet'
 gem 'rouge'
 gem 'jemoji'
+gem 'jekyll-compose', group: [:jekyll_plugins]
