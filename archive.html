@@ -3,13 +3,4 @@ layout: page
 title: Archive
 ---
 
-<ul class="related-posts">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-        <span class="related-post-title">{{ post.title }}</span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+{% include post_list.html posts=site.posts %}
