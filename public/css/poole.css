@@ -155,10 +155,11 @@ pre {
   font-weight: 400;
 }
 code {
-  padding: .25em .5em;
+  padding: .05em .25em .15em;
   /*font-size: 85%;*/
   /*color: #bf616a;*/
-  background-color: #FCF7FC;
+  /*background-color: #FCF7FC;*/
+  background-color: #F7EEF9;
   color: #6A1B9A;
   border-radius: 3px;
 }

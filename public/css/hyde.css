@@ -201,3 +201,11 @@ a.sidebar-nav-item:focus {
 .post-title {
   font-family: "Chewy";
 }
+
+img.emoji {
+  display: inline;
+  height: 1.2em;
+  width: 1.2em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.2em;
+}
