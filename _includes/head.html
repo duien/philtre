@@ -6,6 +6,14 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  {% capture title %}
+    {% if page.title == "Home" %}
+      {{ site.tagline }}
+    {% else %}
+      {{ page.title }}
+    {% endif %}
+  {% endcapture %}
+
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -13,6 +21,10 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
+
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
