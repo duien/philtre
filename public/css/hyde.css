@@ -99,7 +99,38 @@ a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
-  font-weight: bold;
+  /*font-weight: bold;*/
+  background: white;
+  color: #AB47BC;
+  margin-right: -2rem;
+  margin-left: -1rem;
+  padding-left: 1rem;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  position: relative;
+}
+
+.sidebar-nav-item.active:before,
+.sidebar-nav-item.active:after {
+  position: absolute;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  content: " ";
+  background: #AB47BC;
+}
+
+.sidebar-nav-item.active:before {
+  top: -6px;
+  border-bottom-right-radius: 6px;
+  /*border-width: 0 6px 6px 0;*/
+  box-shadow: 2px 2px 0 #FFF
+}
+
+.sidebar-nav-item.active:after {
+  bottom: -6px;
+  border-top-right-radius: 6px;
+  box-shadow: 2px -2px 0 #FFF;
 }
 
 /* Sticky sidebar
@@ -183,23 +214,25 @@ a.sidebar-nav-item:focus {
  }
 
 .sidebar {
-  /*background-color: #aa759f;*/
   background-color: #AB47BC;
-}
-.post-title, .content .post-title a {
-  color: #AB47BC;
 }
 .content a,
 .related-posts li a:hover {
-  /*color: #aa759f;*/
   color: #29B6F6;
 }
 
 
-/* More stuff */
-
-.post-title {
+/* Custom Headings */
+.post-title,
+.page-title,
+.page h1,
+.content .post-title a {
+  color: #AB47BC;
   font-family: "Chewy";
+}
+
+.page-title, .page h1 {
+  font-size: 3.25rem;
 }
 
 img.emoji {

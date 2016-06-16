@@ -344,6 +344,18 @@ tbody tr:nth-child(odd) th {
   color: #B39DDB;
 }
 
+.related-posts .post-date {
+  display: inline;
+  margin: 0 1em 0 0;
+}
+
+.related-posts a:hover {
+  text-decoration: none;
+}
+.related-posts a:hover .related-post-title {
+  text-decoration: underline;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
@@ -361,13 +373,13 @@ tbody tr:nth-child(odd) th {
   font-size: 75%;
   color: #999;
 }
-.related-posts li a:hover {
+/*.related-posts li a:hover {
   color: #268bd2;
   text-decoration: none;
 }
 .related-posts li a:hover small {
   color: inherit;
-}
+}*/
 
 
 /*

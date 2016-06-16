@@ -28,3 +28,16 @@ Some fun facts about the setup of this project include:
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
+
+# Colophon
+
+:railway_car: Built using Jekyll
+
+:japanese_goblin: Theme based on Hyde
+
+:love_letter: Emojis from Twitter's twemoji project
+
+:sparkles: Fonts are "Chewy" from Google Fonts and "Operator" (standard and mono) from Hoefler & co
+
+:peach::dash:
+
