@@ -3,11 +3,9 @@ layout: post
 title: Getting started with Semaphore
 ---
 
-Getting up a well-integrated project is actually surprisingly easy.
+[Semaphore](https://semaphoreci.com) is a hosted continuous integration tool. When I was getting started with this project, I googled around and it was the one that showed up. They have good docs on [continuous integration with Elixir](https://semaphoreci.com/docs/elixir-continuous-integration.html), and gtting up a well-integrated project is actually surprisingly easy.
 
-Ingredients:
 
-[Elixir Continuous Integration](https://semaphoreci.com/docs/elixir-continuous-integration.html)
 
 [docs_ghpages](https://github.com/jjh42/docs_ghpages)
 
