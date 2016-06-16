@@ -99,38 +99,43 @@ a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
 .sidebar-nav-item.active {
-  /*font-weight: bold;*/
-  background: white;
-  color: #AB47BC;
-  margin-right: -2rem;
-  margin-left: -1rem;
-  padding-left: 1rem;
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
-  position: relative;
+  font-weight: bold;
 }
+@media (min-width: 48em) {
+  .sidebar-nav-item.active {
+    font-weight: normal;
+    background: white;
+    color: #AB47BC;
+    margin-right: -2rem;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    position: relative;
+  }
 
-.sidebar-nav-item.active:before,
-.sidebar-nav-item.active:after {
-  position: absolute;
-  right: 0;
-  width: 6px;
-  height: 6px;
-  content: " ";
-  background: #AB47BC;
-}
+  .sidebar-nav-item.active:before,
+  .sidebar-nav-item.active:after {
+    position: absolute;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    content: " ";
+    background: #AB47BC;
+  }
 
-.sidebar-nav-item.active:before {
-  top: -6px;
-  border-bottom-right-radius: 6px;
-  /*border-width: 0 6px 6px 0;*/
-  box-shadow: 2px 2px 0 #FFF
-}
+  .sidebar-nav-item.active:before {
+    top: -6px;
+    border-bottom-right-radius: 6px;
+    /*border-width: 0 6px 6px 0;*/
+    box-shadow: 2px 2px 0 #FFF
+  }
 
-.sidebar-nav-item.active:after {
-  bottom: -6px;
-  border-top-right-radius: 6px;
-  box-shadow: 2px -2px 0 #FFF;
+  .sidebar-nav-item.active:after {
+    bottom: -6px;
+    border-top-right-radius: 6px;
+    box-shadow: 2px -2px 0 #FFF;
+  }
 }
 
 /* Sticky sidebar
